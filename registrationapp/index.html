@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appointement app</title>
+</head>
+<body>
+    <div id="firstdiv">
+        <h1>Appointement App</h1>
+    </div>
+    <div id="container">
+    <div id="msg"></div>
+    <div id="seconddiv">
+        <form onsubmit="saveDataToLocalStorage(event)" id="forum">
+            <table>
+                <tr>
+            <td><label for="name">Name:-</label></td>
+            <td><input type="text" id="username"></td>
+                </tr>
+                <tr>
+            <td><label for="email">email:-</label></td>
+            <td><input type="email" id="useremail"></td>
+                </tr>
+                <tr>
+            <td><label for="number">Phone Number:-</label></td>
+            <td><input type="number" id="usernumber"></td>
+                </tr>
+                <tr>
+            <td><button id="submit">submit</button></td>
+            </tr>
+            </table>
+        </form>
+        <ul id="userlist"></ul>
+    </div>
+    </div>
+    <script src="iteration.js"></script>
+</body>
+</html>

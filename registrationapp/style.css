@@ -1,0 +1,12 @@
+#container {
+    margin: auto;
+    width: 297px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    background-color: antiquewhite;
+}
+
+#firstdiv{
+    text-align: center;
+    background-color: aqua;
+}
